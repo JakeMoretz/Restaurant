@@ -41,12 +41,10 @@ function homePage() {
     const info = document.createElement('div');
     const title = document.createElement('h1');
     const para = document.createElement('p');
-    const img = document.createElement('div');
     const line = document.createElement('hr');
 
     section.className = 'section';
     info.className = 'info';
-    img.className = 'heroImg';
     title.className = 'title';
     para.className = 'para';
     line.className = 'line';
@@ -55,31 +53,28 @@ function homePage() {
     para.textContent =
         '"Slice Society" is a modern and fun pizzeria that caters to pizza lovers of all ages. The restaurant has a cozy and welcoming atmosphere, with comfortable seating and a bright and colorful decor. The menu features a variety of pizzas, including classic toppings like pepperoni and sausage as well as more unique options like goat cheese and arugula or BBQ chicken. The restaurant also offers salads, appetizers, and desserts, as well as a selection of beer and wine to enjoy with your meal. The staff at Slice Society are friendly and knowledgeable about the menu, and are always happy to help customers find the perfect pizza to suit their taste. Whether you are looking for a quick lunch or a fun night out with friends, Slice Society is the perfect spot for pizza lovers.';
 
-    allContent.appendChild(section);
+    
     section.appendChild(info);
-    section.appendChild(img);
     info.append(title, para);
+    allContent.appendChild(section);
 
-    // footer
-    const footer = document.createElement('div');
-    const para2 = document.createElement('p');
-    const link = document.createElement('a');
+      //footer
 
-    footer.className = 'footer';
-    para2.className = 'para2';
-    link.className = 'link';
+    //   const bottomSection = document.createElement('div');
+    //   const developed = document.createElement('p');
+    //   const name = document.createElement('a')
+  
+    //   bottomSection.className = "bottomSection";
+    //   developed.className = "developed";
+    //   name.className = "Name";
+  
+    //   developed.textContent = "Developed by:";
+    //   name.href = 'https://www.linkedin.com/in/jake-moretz-450668255/';
+    //   name.textContent = 'Jake Moretz';
+  
+    //   bottomSection.append(developed, name);
 
-    para2.textContent = 'Developed by:';
-    link.href = 'https://www.linkedin.com/in/jake-moretz-450668255/';
-    link.textContent = 'Jake Moretz';
-
-    allContent.appendChild(footer);
-    footer.appendChild(para2);
-    footer.appendChild(link);
-
-    para2.textContent = 'Developed by:';
-    link.href = 'https://www.linkedin.com/in/jake-moretz-450668255/';
-    link.textContent = 'Jake Moretz';
+    //   allContent.appendChild(bottomSection);
 }
 
 document.body.appendChild(homePage());
