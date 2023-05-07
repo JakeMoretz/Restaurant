@@ -121,18 +121,17 @@ function menu() {
 
     const bottomSection = document.createElement('div');
     const developed = document.createElement('p');
-    const name = document.createElement('a')
+    const name = document.createElement('a');
 
-    bottomSection.className = "bottomSection";
-    developed.className = "developed";
-    name.className = "Name";
+    bottomSection.className = 'bottomSection';
+    developed.className = 'developed';
+    name.className = 'Name';
 
-    developed.textContent = "Developed by:";
+    developed.textContent = 'Developed by:';
     name.href = 'https://www.linkedin.com/in/jake-moretz-450668255/';
     name.textContent = 'Jake Moretz';
 
     bottomSection.append(developed, name);
-
 
     allContent.appendChild(bottomSection);
 
