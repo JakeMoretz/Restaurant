@@ -1,0 +1,22 @@
+@media (max-width: 1300px) {
+    .info {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .title {
+        font-size: 3em;
+    }
+
+    .navbar {
+        gap: 0;
+    }
+
+    .info {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+}

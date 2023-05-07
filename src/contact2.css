@@ -1,0 +1,15 @@
+@media (max-width: 900px) {
+    .statement {
+        width: 70vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        gap: 0;
+    }
+
+    .statement {
+        width: 80vw;
+    }
+}
