@@ -1,4 +1,5 @@
 import "./menu.css";
+import "./menu2.css";
 
 const allContent = document.querySelector('#content-menu');
 

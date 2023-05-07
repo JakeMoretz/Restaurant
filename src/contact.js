@@ -1,4 +1,5 @@
 import './contact.css';
+import './contact2.css';
 
 const allContent = document.querySelector('#contact-content');
 

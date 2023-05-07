@@ -1,5 +1,5 @@
 import './index.css';
-// import './style2.css';
+import './index2.css';
 
 const allContent = document.querySelector('#content');
 
