@@ -47,6 +47,7 @@ button {
 }
 
 .statement {
+    text-align: center;
     width: 40vw;
     font-size: 1.2em;
     color: rgb(156, 156, 156);
@@ -114,7 +115,7 @@ button {
     text-align: center;
     color: rgb(156, 156, 156);
     font-size: 1.2em;
-    min-height: calc(25vh - 70px); 
+    min-height: calc(23vh - 70px);
 }
 
 .bottomSection {
@@ -124,11 +125,8 @@ button {
     height: 50px;
 }
 
-
-
-
 .developed {
-    color:rgb(188, 188, 188);
+    color: rgb(188, 188, 188);
     font-size: 1.5em;
 }
 
@@ -138,7 +136,4 @@ button {
     padding-left: 10px;
     font-family: 'Oooh Baby', cursive;
     font-size: 1.5em;
-
-
 }
-
