@@ -1,26 +1,28 @@
 {
-  "name": "restaurant",
-  "version": "1.0.0",
-  "description": "",
-  "private": true,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JakeMoretz/Restaurant.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JakeMoretz/Restaurant/issues"
-  },
-  "homepage": "https://github.com/JakeMoretz/Restaurant#readme",
-  "devDependencies": {
-    "css-loader": "^6.7.3",
-    "style-loader": "^3.3.2",
-    "webpack": "^5.82.0",
-    "webpack-cli": "^5.0.2"
-  }
+    "name": "restaurant",
+    "version": "1.0.0",
+    "description": "",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "gh-deploy": "git push origin :gh-pages && git subtree push --prefix dist origin gh-pages"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JakeMoretz/Restaurant.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JakeMoretz/Restaurant/issues"
+    },
+    "homepage": "https://github.com/JakeMoretz/Restaurant#readme",
+    "devDependencies": {
+        "css-loader": "^6.7.3",
+        "gh-pages": "^5.0.0",
+        "style-loader": "^3.3.2",
+        "webpack": "^5.82.0",
+        "webpack-cli": "^5.0.2"
+    }
 }
