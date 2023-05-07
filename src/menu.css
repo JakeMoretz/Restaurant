@@ -33,8 +33,7 @@ button {
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
-    
-    
+    min-height: calc(60vh - 70px);    
 }
 
 .menuTitle {
